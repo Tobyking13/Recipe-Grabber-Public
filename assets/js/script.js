@@ -255,7 +255,8 @@ function getRecipes() {
   $("#recipe").empty();
 
   // Spoonacular API query
-  const recipeIdSearch = "https://api.spoonacular.com/recipes/complexSearch?query=" + recipeSearch + "&apiKey=" + apiKey + "&includeInstruction=true&addRecipeInformation=true&number=9";
+  const recipeIdSearch = "https://api.spoonacular.com/recipes/complexSearch?query=" + recipeSearch + "&apiKey=" + apiKey + "
+  
 
   // Initial Spoonacular API call
   $.ajax({
